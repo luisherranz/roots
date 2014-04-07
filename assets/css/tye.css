@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'aleobold';
+    src: url('../fonts/aleo-bold-webfont.eot');
+    src: url('../fonts/aleo-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/aleo-bold-webfont.woff') format('woff'),
+         url('../fonts/aleo-bold-webfont.ttf') format('truetype'),
+         url('../fonts/aleo-bold-webfont.svg#aleobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.tye-navbar {
+	min-height: 120px;
+}
+
+.navbar-brand {
+	margin-top: 16px;
+}
+
+.tye-navbar-nav {
+	float: right;
+	margin-top: 35px;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+	background-color: rgba(231, 231, 231, 0);
+}
+
+.tye-navbar-nav li a, .dslc-text-module-content h2 {
+	font-family: 'aleobold', Arial, sans-serif !important;
+}
+
+
+
+@media (min-width:768px){
+	.dslc-modules-section-wrapper{width:750px !important;}}
+@media (min-width:992px){
+	.dslc-modules-section-wrapper{width:970px !important;}}
+@media (min-width:1200px){
+	.dslc-modules-section-wrapper{width:1170px !important;}}
+
